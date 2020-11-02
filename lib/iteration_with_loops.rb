@@ -4,7 +4,7 @@ def join_nested_strings(src)
   count_1 = 0
   joined_string = ""
   while src[count_1] do
-    count_2
+    count_2 = 0
     while src[count_1][count_2] do
       if !src[count_1][count_2].integer?
         joined_string + src[count_1][count_2]
